@@ -21,7 +21,7 @@ public class RouletteTest {
 
 	@Test
 	public void testAddBetForPlayer() {
-		fail("Not yet implemented");
+		this.roulette.addBetForPlayer("TestUser", new Bet("1", 1.0));
 	}
 
 	@Test
@@ -38,5 +38,4 @@ public class RouletteTest {
 	public void testReadPlayerInfo() {
 		fail("Not yet implemented");
 	}
-
 }
